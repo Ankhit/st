@@ -29,7 +29,7 @@ import static org.junit.Assert.assertEquals;
 
         @Test
         //Test case by Shoaib Anwar
-        public void testMult() {assertEquals(12,  calc.mult(9, 9));}
+        public void testMult() {assertEquals(81,  calc.mult(9, 9));}
 
 
 
