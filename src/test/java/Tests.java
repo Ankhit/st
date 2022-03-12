@@ -25,10 +25,15 @@ import static org.junit.Assert.assertEquals;
         }
         @Test
         //Test case by Bhavya Yaddula
-        public void testDiv() {
-            assertEquals(1, calc.div(9, 9));
+        public void testDiv() {assertEquals(1, calc.div(9, 9));}
+
+        @Test
+        //Test case by Shoaib Anwar
+        public void testMult() {assertEquals(1, calc.mult(9, 9));}
+
+
         }
 
-    }
+
 
 
