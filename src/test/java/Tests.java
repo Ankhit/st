@@ -30,10 +30,21 @@ import static org.junit.Assert.assertEquals;
         @Test
         //Test case by Shoaib Anwar
         public void testMult() {assertEquals(81,  calc.mult(9, 9));}
+        @Test
+        //Integration test
+        public void integration_test1(){
+            assertEquals(10,calc.add(calc.sub(10,4),calc.mult(2,2)));
+        }
 
-
-
+        @Test
+        //Integration test
+        public void integration_test2(){
+            assertEquals(5,calc.div(calc.add(0,5),calc.mult(1,1)));
+        }
     }
+
+
+
 
 
 
